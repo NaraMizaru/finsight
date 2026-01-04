@@ -6,12 +6,14 @@ const ModuleFinanceBudgetsPage = () => {
         <div className={'space-y-6'}>
             <BudgetSummary/>
 
-            <BudgetCard
-                category="Food & Drinks"
-                spent={1200}
-                limit={2000}
-                color="bg-orange-400"
-            />
+            <div className={'grid gap-6 sm:grid-cols-2 lg:grid-cols-2'}>
+                <BudgetCard
+                    category="Food & Drinks"
+                    spent={1200}
+                    limit={2000}
+                    color="bg-orange-400"
+                />
+            </div>
         </div>
     )
 }
