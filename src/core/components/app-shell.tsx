@@ -5,7 +5,7 @@ import {Topbar} from "@/core/components/topbar";
 export const AppShell = ({children}: { children: ReactNode }) => {
     return (
         <div className="min-h-screen bg-background p-4">
-            <aside className="fixed inset-y-4 left-4 z-50 w-64 rounded-2xl glass">
+            <aside className="fixed inset-y-4 left-4 z-50 hidden w-64 rounded-2xl glass lg:block">
                 <Sidebar/>
             </aside>
 
