@@ -1,7 +1,7 @@
-import ModuleDashboardPage from "@/modules/dashboard/pages/dashboard.page";
+import ModuleFinanceDashboardPage from "@/modules/finance/pages/dashboard.page";
 
 export default function AppDashboardPage() {
     return (
-        <ModuleDashboardPage/>
+        <ModuleFinanceDashboardPage/>
     );
 }

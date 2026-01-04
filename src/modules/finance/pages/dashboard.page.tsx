@@ -1,4 +1,4 @@
-const ModuleDashboardPage = () => {
+const ModuleFinanceDashboardPage = () => {
     return (
         <div className="space-y-6">
             <div>
@@ -30,4 +30,4 @@ const ModuleDashboardPage = () => {
     )
 }
 
-export default ModuleDashboardPage
+export default ModuleFinanceDashboardPage
